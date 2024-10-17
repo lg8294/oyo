@@ -2,24 +2,24 @@
 // https://uc.ubestkid.com/web/user/getFullUserInfo
 // let reg = /^https:\/\/uc\.ubestkid\.com\/web\/user\/(?:getUserProfile|getFullUserInfo)/;
 
-function notify(message) {
-  let title = "ubestkid_no_ad.js";
-  let msg = null;
-  let content = $request.url;
-  if (typeof message === "string") {
-    msg = message;
-  } else {
-    title = message.title ?? title;
-    msg = message.message;
-    content = message.body;
-  }
-  console.log(title, msg, content);
-  $notification.post(
-    title, // 通知标题
-    msg, // 通知消息。比较简短。
-    typeof content === "string" ? content : JSON.stringify(content) // 通知内容。点击通知后可以查看详细内容
-  );
-}
+// function notify(message) {
+//   let title = "ubestkid_no_ad.js";
+//   let msg = null;
+//   let content = $request.url;
+//   if (typeof message === "string") {
+//     msg = message;
+//   } else {
+//     title = message.title ?? title;
+//     msg = message.message;
+//     content = message.body;
+//   }
+//   console.log(title, msg, content);
+//   $notification.post(
+//     title, // 通知标题
+//     msg, // 通知消息。比较简短。
+//     typeof content === "string" ? content : JSON.stringify(content) // 通知内容。点击通知后可以查看详细内容
+//   );
+// }
 
 // notify("running");
 // notify({ body: { test: "test" } });

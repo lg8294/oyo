@@ -1,4 +1,4 @@
-#!url=https://raw.githubusercontent.com/lg8294/sr_config/master/ubestkid_no_ad.sgmodule
+#!url=https://raw.githubusercontent.com/lg8294/oyo/master/ubestkid_no_ad.sgmodule
 #!name = 贝乐虎去广告
 #!desc = 贝乐虎去广告
 #!author = lg8294
@@ -8,7 +8,7 @@
 #https://ac.ubestkid.com/com.ubestkid.beilehu/com.ubestkid.beilehu.config.json
 
 [Script]
-ubestkid no ad = type=http-response,pattern=^https:\/\/ac\.ubestkid\.com\/,requires-body=1,script-path=https://raw.githubusercontent.com/lg8294/sr_config/master/replace-body.js,argument=true->false
+ubestkid no ad = type=http-response,pattern=^https:\/\/ac\.ubestkid\.com\/,requires-body=1,script-path=https://raw.githubusercontent.com/lg8294/oyo/master/replace-body.js,argument=true->false
 
 [MITM]
 hostname = %APPEND% *.ubestkid.com
