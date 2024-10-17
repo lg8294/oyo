@@ -1,0 +1,17 @@
+#!url=https://raw.githubusercontent.com/lg8294/sr_config/master/ubestkid_vip.sgmodule
+#!name = 贝乐虎大会员
+#!desc = 贝乐虎大会员
+#!author = lg8294
+#!homepage=https://lg8294.com
+#!icon = 
+
+# http://192.168.101.88:8080/ubestkid_vip.sgmodule
+# https://uc.ubestkid.com/web/user/getUserProfile
+# https://uc.ubestkid.com/web/user/getFullUserInfo
+# /^https:\/\/uc\.ubestkid\.com\/web\/user\/(?:getUserProfile|getFullUserInfo)/
+
+[Script]
+ubestkid-vip=type=http-response,pattern=^https:\/\/uc\.ubestkid\.com\/web\/user\/(?:getUserProfile|getFullUserInfo),requires-body=1,script-path=https://raw.githubusercontent.com/lg8294/sr_config/master/ubestkid_vip.js
+
+[MITM]
+hostname = %APPEND% *.ubestkid.com
