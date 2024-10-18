@@ -1,11 +1,11 @@
-#!url=https://raw.githubusercontent.com/lg8294/oyo/main/ubestkid_vip.sgmodule
+#!url = https://raw.githubusercontent.com/lg8294/oyo/main/ubestkid_vip.sgmodule
 #!name = 贝乐虎大会员
 #!desc = 贝乐虎大会员
 #!author = lg8294
 #!homepage=https://lg8294.com
 #!icon = 
+#!test-url = http://192.168.101.88:8080/ubestkid_vip.sgmodule
 
-# http://192.168.101.88:8080/ubestkid_vip.sgmodule
 # https://uc.ubestkid.com/web/user/getUserProfile
 # https://uc.ubestkid.com/web/user/getFullUserInfo
 # /^https:\/\/uc\.ubestkid\.com\/web\/user\/(?:getUserProfile|getFullUserInfo)/
